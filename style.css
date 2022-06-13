@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+* {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    user-select: none;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+body {
+    background-color: #18191a;
+    height: 100vh;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 25pt;
+    color: white
+}
+
+.cursos {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 10px;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    background-color: #242526;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.card:hover {
+    transition: 0.2s;
+    background-color: #2425268c;
+}
+
+.cardimg {
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cardimg:hover {
+    opacity: 50%;
+}
+
+.card h2 {
+    color: white;
+    font-size: 12pt;
+}
+
+.card h2:hover {
+    color: gray;
+}
+
+.card p {
+    font-size: 8pt;
+    color: gray;
+}
+
+.card p:hover {
+    color: rgb(151, 151, 151);
+}
+
+.categoria span {
+    font-size: 8pt;
+}
+
+.categoria {
+    color: white;
+    margin-top: 10px;
+    float: right;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80px;
+    background-color: #0099ff;
+}
+
+.categoria:hover {
+    background-color: transparent;
+    color: #0099ff;
+}
+
+label {
+    color: white;
+}
+
+.ln {
+    list-style: none;
+}
+
+.sbordar {
+    border: 0;
+}
